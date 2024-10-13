@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class LocaleTest {
 
+  // Menggunakan Locale Indonesia
   @Test
   void testNewLocale() {
     var language = "in";
@@ -19,6 +20,7 @@ public class LocaleTest {
     System.out.println(locale.getDisplayCountry());
   }
 
+  // Menggunakan Locale US
   @Test
   void testNewLocaleUs() {
     var language = "en";

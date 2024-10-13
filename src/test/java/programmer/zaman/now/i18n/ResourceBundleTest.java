@@ -7,6 +7,7 @@ import java.util.ResourceBundle;
 
 public class ResourceBundleTest {
 
+  // 18N di ResourceBudle
   @Test
   void testResourceBundle() {
 

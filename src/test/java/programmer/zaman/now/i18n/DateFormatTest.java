@@ -9,6 +9,7 @@ import java.util.Locale;
 
 public class DateFormatTest {
 
+  // Format menggunakan Date Format
   @Test
   void testDateFormat() {
     var pattern = "EEEE dd MMMM yyyy";
@@ -18,6 +19,7 @@ public class DateFormatTest {
     System.out.println(format);
   }
 
+  // 18N di Date Format
   @Test
   void testDateFormatIndonesia() {
     var pattern = "EEEE dd MMMM yyyy";
@@ -28,6 +30,7 @@ public class DateFormatTest {
     System.out.println(format);
   }
 
+  // 18N di Date Format Jepang
   @Test
   void testDateFormatJapan() {
     var pattern = "EEEE dd MMMM yyyy";
@@ -38,6 +41,7 @@ public class DateFormatTest {
     System.out.println(format);
   }
 
+  // Parsing menggunakan Date Format Indonesia
   @Test
   void testDateFormatParseIndonesia() {
     var pattern = "EEEE dd MMMM yyyy";
@@ -52,6 +56,7 @@ public class DateFormatTest {
     }
   }
 
+  // Parsing menggunakan Date Format Jepang
   @Test
   void testDateFormatParseJapan() {
     var pattern = "EEEE dd MMMM yyyy";
